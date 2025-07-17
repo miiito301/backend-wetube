@@ -9,7 +9,7 @@ dotenv.config()
 
 const app = express()
 app.use(cors({
-  origin: "https://frontend-wetube-nim2c41ir-miiito-310s-projects.vercel.app // ←あなたのVercelの本番URLに変更
+  origin: "https://frontend-wetube-nim2c41ir-miiito-310s-projects.vercel.app" // ←あなたのVercelの本番URLに変更
 }));
 app.use(express.json())
 
